@@ -1,0 +1,19 @@
+[project]
+name = "football-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "lap>=0.5.12",
+    "opencv-python>=4.10.0.84",
+    "scikit-learn>=1.6.0",
+    "supervision>=0.24.0",
+    "ultralytics>=8.3.55",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "roboflow>=1.1.50",
+]
