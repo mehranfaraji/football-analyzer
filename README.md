@@ -1,7 +1,7 @@
 # Football Analysis Project
 
 ## Introduction
-This project aimed to detect and track players, referees, and footballs in a video using YOLO, a state-of-the-art AI object detection model. I trained the model to enhance its performance and used Kmeans for pixel segmentation and clustering to assign players to teams based on their t-shirt colors. This information helped measure a team's ball possession percentage during a match. Additionally, I used optical flow to measure camera movement between frames, allowing accurate tracking of player movements. By implementing perspective transformation, I represented the scene's depth and perspective, enabling measurement of player movements in meters rather than pixels. Finally, I calculated each player's speed and the distance covered. This project covered various concepts and addressed real-world problems, making it a suitable challenge for showcasing my ML engineering capabilities.
+This project aimed to detect and track players, referees, and footballs in a video using YOLO, a state-of-the-art AI object detection model. I trained the model to enhance its performance and used Kmeans for pixel segmentation and clustering to assign players to teams based on their t-shirt colors. This information helped measure a team's ball possession percentage during a match. Additionally, I used optical flow to measure camera movement between frames, allowing accurate tracking of player movements. This project covered various concepts and addressed real-world problems, making it suitable challenge for showcasing my ML engineering capabilities.
 
 ![Screenshot](output_videos/sample_screenshot.png)
 
